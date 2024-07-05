@@ -1,0 +1,100 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+    body {
+    padding-left: 30%;
+    background-image: url(https://cdn.britannica.com/84/232784-050-1769B477/Siberian-Husky-dog.jpg);
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    border-radius: 25px;
+    
+
+}
+#b1 {
+    box-sizing: content-box;
+    background-color: blueviolet;
+    width:50px;
+    height:50px;
+    border:5px solid blue;
+    padding:15px;
+
+}
+.bt {
+    position: absolute;
+
+    transform: translateX(-50%); /*Center the button precisely */
+    padding: 10px 20px; /* Adjust padding for button size */
+    background-color: #6a7580; 
+    color: #fff; 
+    border: none;
+    cursor: pointer; /* Change cursor to pointer on hover */
+    font-size: 16px;
+}
+#b2 {
+    box-sizing: content-box;
+    text-align: center;
+    color: red;
+    width:350px;
+    height:350px;
+    border:5px solid rgb(7, 7, 7);
+    padding:5px 10px;
+    
+
+}
+#button {
+    text-align: center;
+    hover:blue;
+    margin-left: 40px;
+}
+.box3 {
+    box-sizing: content-box;
+    display: flex;
+    height: 150px;
+    width:650px;
+    background-color:green;
+}
+.box4 {
+    box-sizing: content-box;
+    display: flex;
+    height: 150px;
+    width:650px;
+    background-color:yellowgreen;
+}
+.box5 {
+    box-sizing: content-box;
+    display: flex;
+    height: 150px;
+    width:650px;
+    background-color:rgb(218, 243, 218);
+}
+.boxes {
+    display:flex;
+    width:650px;
+    height:150px;
+
+
+}
+.author {
+    margin-bottom: 20px;
+    width:100px;
+}
+.header {
+    background-color: #333;
+    text-align: center;
+    padding: 10px;
+}
+.header h2 {
+    margin: 0;
+    color:#fff;
+}
+.header a {
+    text-decoration: none;
+    color: #fff;
+    margin:0 10px;
+    padding:5px 10px;
+    
+}
